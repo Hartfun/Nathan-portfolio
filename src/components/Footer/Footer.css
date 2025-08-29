@@ -67,14 +67,17 @@
         flex-direction: column;
         gap: 50px;
     }
-    .footer-bottom{
+    .footer-bottom {
         display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 50px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
     }
-    .footer-bottom-right{
+
+.footer-bottom-right {
         display: flex;
-        flex-direction: column;
-        margin-bottom: auto;
+        gap: 50px;
+        margin-left: auto;
     }
+
 }
