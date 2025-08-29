@@ -103,10 +103,12 @@
     .about-title{
         font-size: 50px;
         padding: 0;
+        text-align: center;
     }
     .about-title img{
         width: 130px;
         right: -20px;
+    
     }
     .about-section{
         flex-direction: column;
@@ -130,17 +132,19 @@
         height: 6px;
     }
     .about-achievements{
-        justify-content: space-between;
+        justify-content:left;
+        flex-wrap: wrap;
     }
     .about-achievement{
         gap: 10px;
     }
     .about-achievement h1{
         font-size: 34px;
+        align-self: flex-start;
         font-weight: 700;
     }
     .about-achievement p{
-        text-align: center;
+        align-self: flex-start;
         font-size: 16px;
     }
     .about-skill hr {
