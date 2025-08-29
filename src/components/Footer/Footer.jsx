@@ -12,10 +12,6 @@ function Footer() {
               <img src={footer_logo} alt="" />
               <p>I am a Data Analyst from India, with a fresh beginning into Data Analysis & Data Science.</p>
             </div>
-          <div className="footer-top-right">
-              <div className="footer-email-input">
-              </div>
-          </div>
       </div>
       <hr />
       <div className="footer-bottom">
